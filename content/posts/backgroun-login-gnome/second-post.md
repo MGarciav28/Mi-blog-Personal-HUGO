@@ -25,7 +25,7 @@ $ curl -fL 'https://raw.githubusercontent.com/PRATAP-KUMAR/ubuntu-gdm-set-backgr
 
 4. Abrimos una nueva terminal y nos posicionamos en la carpeta donde tenemos la imagen, ahí ejecutamos cualquiera de los comandos del punto anterior y se genera un nuevo script.
 
-![](./image1.png)
+![](../image1.png)
 
 5. En la misma terminal ejecutamos el script que acabamos de generar usando las instrucciones:
 
@@ -35,4 +35,4 @@ sudo ./ubuntu-gdm-set-background --image 'ubicacion de la imagen'
 
 Al terminar de ejecutar nos debe mostrar un mensaje de operacion exitosa.
 
-![](./image2.png)
+![](../image2.png)
