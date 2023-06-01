@@ -6,6 +6,6 @@ draft: false
 
 # MEDIOS DE CONTACTO
 
-- Github
+- [Github](https://github.com/MGarciav28)
 - Linkedln
 - Twitter
