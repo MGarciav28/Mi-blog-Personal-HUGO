@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/pages/about/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/pages/about/</loc>
     <lastmod>2023-06-01T00:25:50-06:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/</loc>
     <lastmod>2023-06-01T00:25:50-06:00</lastmod>
   </url><url>
-    <loc>http://example.org/pages/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/pages/</loc>
     <lastmod>2023-06-01T00:25:50-06:00</lastmod>
   </url><url>
-    <loc>http://example.org/pages/contact/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/pages/contact/</loc>
     <lastmod>2023-06-01T00:21:35-06:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-hugo/my-first-post/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/post-hugo/my-first-post/</loc>
     <lastmod>2023-04-30T19:09:46-06:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/</loc>
     <lastmod>2023-04-30T19:09:46-06:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/tags/</loc>
   </url>
 </urlset>

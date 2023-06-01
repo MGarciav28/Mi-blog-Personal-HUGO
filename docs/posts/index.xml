@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mi blog personal</title>
-    <link>http://example.org/posts/</link>
+    <link>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/</link>
     <description>Recent content in Posts on Mi blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 30 Apr 2023 19:09:46 -0600</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 19:09:46 -0600</lastBuildDate><atom:link href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creacion de Blog usando HUGO</title>
-      <link>http://example.org/posts/post-hugo/my-first-post/</link>
+      <link>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/post-hugo/my-first-post/</link>
       <pubDate>Sun, 30 Apr 2023 19:09:46 -0600</pubDate>
       
-      <guid>http://example.org/posts/post-hugo/my-first-post/</guid>
+      <guid>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/post-hugo/my-first-post/</guid>
       <description>El framework HUGO Instalación Antes de poder comenzar con el desarrollo de nuestro proyecto es necesario instalar el framework en el equipo donde realizaremos nuestro desarrollo.
 Todo lo necesario lo podemos conseguir en el sitio oficial del framework HUGO.
 En el sitio se encuentra tambien toda la documentacion necesaria que puede consultarse incluida la seccion de Instalacion con sub secciones para los diferentes sitemas operativos:
