@@ -1,5 +1,5 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+languageCode = 'es'
 title = 'Mi blog personal'
 theme = "hugo-blog-awesome"
 
@@ -34,6 +34,11 @@ enableEmoji = true
     name = 'Posts'
     url = '/posts/'
     weight = 20
+    [[menu.main]]
+    pageRef="contact"
+    name = 'Contact'
+    url = '/contact/'
+    weight = 25
   [[menu.main]]
     pageRef="about"
     name = 'About'
