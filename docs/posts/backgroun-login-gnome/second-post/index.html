@@ -4,11 +4,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Mi blog personal | Mi blog personal</title>
-<meta property="og:title" content="Mi blog personal | Mi blog personal" />
-<meta name="twitter:title" content="Mi blog personal | Mi blog personal" />
-<meta itemprop="name" content="Mi blog personal | Mi blog personal" />
-<meta name="application-name" content="Mi blog personal | Mi blog personal" />
+<title itemprop="name">Personalizar pantalla de login Gnome | Mi blog personal</title>
+<meta property="og:title" content="Personalizar pantalla de login Gnome | Mi blog personal" />
+<meta name="twitter:title" content="Personalizar pantalla de login Gnome | Mi blog personal" />
+<meta itemprop="name" content="Personalizar pantalla de login Gnome | Mi blog personal" />
+<meta name="application-name" content="Personalizar pantalla de login Gnome | Mi blog personal" />
 <meta property="og:site_name" content="Awesome hugo blog" />
 
 <meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
@@ -29,15 +29,51 @@
 
 
 
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2023-06-01T14:03:27-0600 />
+    <meta property="article:published_time" content=2023-06-01T14:03:27-0600 />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Personalizar pantalla de login Gnome",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2023-06-01",
+        "description": "",
+        "wordCount":  160 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2023-06-01",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Mi blog personal"
+        }
+    }
+    </script>
+
 
 
     <meta name="generator" content="Hugo 0.92.2" />
 
     
 
-    <link rel="canonical" href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/">
-    <link href="/Mi-blog-Personal-HUGO/index.xml" rel="alternate" type="application/rss+xml" title="Mi blog personal">
-    <link href="/Mi-blog-Personal-HUGO/index.xml" rel="feed" type="application/rss+xml" title="Mi blog personal"><link href="/Mi-blog-Personal-HUGO/sass/main.min.1ef195c03831ec98ab74b192a98a77fb25427af219a9e7d0fb84cfbf96a2cfa9.css" rel="stylesheet"><link href="/Mi-blog-Personal-HUGO/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+    <link rel="canonical" href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/backgroun-login-gnome/second-post/"><link href="/Mi-blog-Personal-HUGO/sass/main.min.1ef195c03831ec98ab74b192a98a77fb25427af219a9e7d0fb84cfbf96a2cfa9.css" rel="stylesheet"><link href="/Mi-blog-Personal-HUGO/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
     
 
@@ -56,7 +92,7 @@
 
     
     </head>
-<body data-theme="dark" class="notransition">
+<body data-theme = "dark" class="notransition">
 <script src="/Mi-blog-Personal-HUGO/js/themeLoader.min.8df2dd85233be653bef54922b610f6836a211763aa283581524fc1aee731e35d.js"></script>
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
@@ -88,7 +124,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/Mi-blog-Personal-HUGO/posts/">
+                    <a class="menu-link active" href="/Mi-blog-Personal-HUGO/posts/">
                         Posts
                     </a>
                     
@@ -121,49 +157,51 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper">
-        
 
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Personalizar pantalla de login Gnome</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2023-06-01T14:03:27-06:00" itemprop="datePublished"> Jun 1, 2023 </time>
+                </div>
+            </header>
+            <div class="page-content">
+                <h1 id="como-personalizar-la-pantalla-de-inicio-de-sesion-en-ubuntu">COMO PERSONALIZAR LA PANTALLA DE INICIO DE SESION EN UBUNTU</h1>
+<p>Este post sirve para poder modificar el fondo de la pantalla de inicio de sesión en sistema Ubuntu con Gnome.</p>
+<ol>
+<li>Lo primero que se necesita es ejecutar en consola el siguiente comando:</li>
+</ol>
+<pre tabindex="0"><code>sudo apt install libglib2.0-dev-bin
+</code></pre><ol start="2">
+<li>Nos dirigimos al repositorio <a href="https://github.com/PRATAP-KUMAR/ubuntu-gdm-set-background">gdm-set-background</a> y de ahi obtenemos un par de comandos utiles para obtener el script necesario.</li>
+</ol>
+<pre tabindex="0"><code>$ wget -q https://raw.githubusercontent.com/PRATAP-KUMAR/ubuntu-gdm-set-background/main/ubuntu-gdm-set-background &amp;&amp; chmod +x ubuntu-gdm-set-background
 
-<div class="author">
-    
-    <h2 class="author-name">Awesome hugo blog</h2>
-    <p class="author-bio">A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog</p>
+$ curl -fL 'https://raw.githubusercontent.com/PRATAP-KUMAR/ubuntu-gdm-set-background/main/ubuntu-gdm-set-background' -o ubuntu-gdm-set-background &amp;&amp; chmod +x ubuntu-gdm-set-background
+</code></pre><ol start="3">
+<li>
+<p>Se obtiene y se ubica dentro de nuestro equipo la imagen que vamos a utilizar.</p>
+</li>
+<li>
+<p>Abrimos una nueva terminal y nos posicionamos en la carpeta donde tenemos la imagen, ahí ejecutamos cualquiera de los comandos del punto anterior y se genera un nuevo script.</p>
+</li>
+</ol>
+<p><img src="./image1.png" alt=""></p>
+<ol start="5">
+<li>En la misma terminal ejecutamos el script que acabamos de generar usando las instrucciones:</li>
+</ol>
+<pre tabindex="0"><code>sudo ./ubuntu-gdm-set-background --image 'ubicacion de la imagen'
+</code></pre><p>Al terminar de ejecutar nos debe mostrar un mensaje de operacion exitosa.</p>
+<p><img src="./image2.png" alt=""></p>
+
+            </div>
+        </article>
+    </main>
 </div>
-
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-            
-            
-            
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/Mi-blog-Personal-HUGO/posts/backgroun-login-gnome/second-post/">Personalizar pantalla de login Gnome</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-06-01T14:03:27-0600">
-        Jun 1, 2023
-    </time>
-</article>
-
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/Mi-blog-Personal-HUGO/posts/post-hugo/my-first-post/">Creacion de Blog usando HUGO</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-04-30T19:09:46-0600">
-        Apr 30, 2023
-    </time>
-</article>
-
-            
-            
-        </main>
-    </div><footer class="footer">
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
@@ -206,5 +244,4 @@ stroke-linejoin="round" class="feather feather-home">
 
 <script src="/Mi-blog-Personal-HUGO/js/themeSwitchnMenu.min.ad15b4960b3b0c091b842669f21bd20516338d98bb03d71d521bf4ba12b87a25.js"></script>
 </body>
-
 </html>

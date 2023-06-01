@@ -6,7 +6,17 @@
     <description>Recent content on Mi blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:25:50 -0600</lastBuildDate><atom:link href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 14:03:27 -0600</lastBuildDate><atom:link href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personalizar pantalla de login Gnome</title>
+      <link>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/backgroun-login-gnome/second-post/</link>
+      <pubDate>Thu, 01 Jun 2023 14:03:27 -0600</pubDate>
+      
+      <guid>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/backgroun-login-gnome/second-post/</guid>
+      <description>COMO PERSONALIZAR LA PANTALLA DE INICIO DE SESION EN UBUNTU Este post sirve para poder modificar el fondo de la pantalla de inicio de sesión en sistema Ubuntu con Gnome.
+ Lo primero que se necesita es ejecutar en consola el siguiente comando:  sudo apt install libglib2.0-dev-bin Nos dirigimos al repositorio gdm-set-background y de ahi obtenemos un par de comandos utiles para obtener el script necesario.  $ wget -q https://raw.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/pages/about/</link>
