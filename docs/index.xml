@@ -6,16 +6,7 @@
     <description>Recent content on Mi blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Jun 2023 15:27:42 -0600</lastBuildDate><atom:link href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tercer Post</title>
-      <link>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/tercer-post/tercer-post/</link>
-      <pubDate>Thu, 01 Jun 2023 15:27:42 -0600</pubDate>
-      
-      <guid>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/tercer-post/tercer-post/</guid>
-      <description>Probando despliege automatico </description>
-    </item>
-    
+    <lastBuildDate>Thu, 01 Jun 2023 14:03:27 -0600</lastBuildDate><atom:link href="https://mgarciav28.github.io/Mi-blog-Personal-HUGO/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personalizar pantalla de login Gnome</title>
       <link>https://mgarciav28.github.io/Mi-blog-Personal-HUGO/posts/backgroun-login-gnome/second-post/</link>

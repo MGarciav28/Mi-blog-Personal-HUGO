@@ -57,13 +57,14 @@ enableEmoji = true
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
-  name = "Sidharth R"
-  description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog"
+  intro = "Blog de Miguel A. García"
+  name = "Miguel Garcia"
+  description = "Bienvenidos a mi blog personal, aqui comparto algunas anotaciones sobre ciertas
+  tareas o temas que me han resultado utiles y me gustaria poder compartir."
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/MGarciav28"
 
 [[params.socialIcons]]
 name = "twitter"

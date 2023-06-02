@@ -187,15 +187,15 @@ stroke-linejoin="round" class="feather feather-home">
 <p>Para crear un proyecto de HUGO
 ejecutamos la instruccion <code>hugo new site Nombre-de-proyecto</code> en la consola de comandos .</p>
 <p>Como resultado obtenemos rapidamente un proyecto nuevo con toda la estructura, carpetas y configuraciones necesarias para comenzar a desarrollar nuestro blog.</p>
-<p><img src="new_site.png" alt="Nuevo proyecto"></p>
+<p><img src="../new_site.png" alt="Nuevo proyecto"></p>
 <h2 id="temas">Temas</h2>
 <p>Una de las grandes bondades con que cuenta el framework HUGO es la utilizacion de temas prediseñados y preconfigurados para crear variados tipos de páginas como son blogs, portafolios, galerias entre otros.</p>
-<p><img src="temas_hugo.png" alt="Catalogo de temas"></p>
+<p><img src="../temas_hugo.png" alt="Catalogo de temas"></p>
 <h3 id="instalando-un-tema">Instalando un tema</h3>
 <p>La gran mayoria de los temas de hugo se encuentran almacenados y versionados en github, por lo que es recomendable y casi necesario versionar nuestro proyecto con git y descargar el tema como un submodulo para poder llevar seguimiento de las actualizaciones que el tema reciba.</p>
 <p>En este ejemplo estamos utilizando el tema <strong>Hugo blog awesome.</strong> y lo descargamos mediante la sentencia <code>git submodule add https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome</code></p>
 <p>El resultado es una subcarpeta llamada <em>hugo-blog-awesome</em> desntro de la carpeta <em>themes</em> con todo el contenido y subcarpetas necesarios.</p>
-<p><img src="tema-instalado.png" alt="Tema instalado"></p>
+<p><img src="../tema-instalado.png" alt="Tema instalado"></p>
 <p>En este punto nuestro proyecto aun no esta utilizando el tema descargado, el siguiente paso consiste en indicar a nuestro proyecto que tema debe usar, esto lo realizamos editando el archivo <strong>config.toml</strong> y agregandole la linea <code>theme = &quot;hugo-blog-awesome&quot;</code>.</p>
 <p>Despues de este punto el tema ya esta asociado a nuestro proyecto, en algunos temas esta instruccion es suficiente para comenzar a trabajar; para el tema que estamos utilizando es necesario agregar al archivo de configuracion la siguiente informacion:</p>
 <pre tabindex="0"><code>defaultContentLanguage = &quot;en-gb&quot;
